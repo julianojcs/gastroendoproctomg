@@ -8,8 +8,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  background-color: #282045;
-  min-height: 100vh;
+  background: #929292;
 }
 
 .content {
@@ -29,10 +28,7 @@
 
 /* Media query para dispositivos móveis */
 @media (max-width: 768px) {
-  .content {
-    scale: 1.2;
-  }
   .container {
-    min-height: 93vh;
+    /* min-height: 93vh; */
   }
 }

@@ -25,7 +25,7 @@ const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'JMR 2025 - save_the_date.png',
+    title: 'GastroEndoProcto/MG 2025 - Save The Date',
     description: 'XIII Seminário Mineiro de Gastroenterologia, Endoscopia Digestiva e Coloproctologia.',
     image: 'https://gastroendoproctomg.com.br/save_the_date_share.png'
   }

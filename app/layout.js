@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import styles from './layout.module.css'
 import Footer from './components/layout/Footer'
 
 const geistSans = localFont({
@@ -24,10 +25,10 @@ export default function RootLayout({ children }) {
         <meta name='author' content='Join Digital Solutions' />
 
         {/* Link canônico */}
-        <link rel='canonical' href='https://jornada.srmg.org.br'></link>
+        <link rel='canonical' href='https://www.gastroendoproctomg.com.br/'></link>
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable}`} style={{maxWidth: '1300px', marginInline: 'auto', backgroundColor: 'var(--foreground)'}}>
-        <div  style={{backgroundColor: 'var(--background)'}}>
+      <body className={`${geistSans.variable} ${geistMono.variable}`} style={{maxWidth: '1300px', margin: 'auto', backgroundColor: '#929292'}}>
+        <div className={styles.container}>
           {children}
           <Footer />
         </div>
